@@ -128,7 +128,7 @@ function buscarPoke() {
     fetch(`https://pokeapi.co/api/v2/pokemon/${nombre}`)
         .then(response => {
             if (!response.ok) {
-                throw new error('error')
+                throw new error('error throw')
             }
             return response.json();
         })
@@ -151,7 +151,7 @@ function buscarPoke() {
             `
             }
         })
-        .catch(error => console.log(error));
+        .catch(error => console.log('error catch'));
 }
 
 btnBuscar1.addEventListener('click', buscarPoke);
