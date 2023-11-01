@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+#usuarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    border: 1px solid red;
+    width: 90%;
+    gap: 15px;
+
+}
+
+#wars{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+    padding: 1.25rem;
+}
+
+.contenedor{
+    border: 1px solid black;
+    margin: 5px;
+    padding: .9375rem;
+}
+
+#poke{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: .625rem;
+    gap: 1.25rem;
+    background-color: aqua;
+}
+
+.card {
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 5px 5px 5px ;
+    
+}
+
+.titulo{
+    text-align: center;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info{
+    font-size: 1.5rem;
+}
+
+#buscar2{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  1.5625rem 3.125rem;
+    box-shadow: 5px 5px 5px;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: .9375rem;
+}
+
+#resultados{
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 5px 5px 5px ;
+    width: 500px;
+}
+
+#cont-buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
